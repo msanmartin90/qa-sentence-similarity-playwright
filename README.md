@@ -26,10 +26,6 @@ It generates **10 sentence pairs**, feeds them to the model, and calculates **co
 
 ##  Setup
 
-1. Clone or unzip this repo:
-   ```bash
-   cd qa-sentence-similarity-playwright
-
 ##  Install Dependencies 
 
 npm install
