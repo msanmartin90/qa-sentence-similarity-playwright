@@ -43,10 +43,10 @@ npm test
 
 Each test logs the sentence pair and their cosine similarity:
  
- Pair #1
-    Sentence 1: The quick brown fox jumps over the lazy dog
-    Sentence 2: A speedy brown fox hopped over a lazy dog
-    Similarity: 0.8325
+ - Pair #1
+   -  Sentence 1: The quick brown fox jumps over the lazy dog
+   -  Sentence 2: A speedy brown fox hopped over a lazy dog
+   -  Similarity: 0.8325
 
 ## Powered by
 
