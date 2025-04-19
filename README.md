@@ -1,4 +1,4 @@
-# 🧪 QA Sentence Similarity Automation
+#  QA Sentence Similarity Automation
 
 This project is a **Playwright + TypeScript automation suite** that tests whether a sentence transformer model (hosted on **Hugging Face**) can correctly determine if two sentences are semantically similar.
 
@@ -6,17 +6,17 @@ It generates **100 sentence pairs**, feeds them to the model, and calculates **c
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Automated testing with [Playwright](https://playwright.dev/)
-- 🤖 Sentence embeddings from Hugging Face (MiniLM-L6-v2)
-- 🧠 Cosine similarity calculation
-- 🔁 Synthetic sentence generation
-- 📊 Configurable similarity threshold
+-  Automated testing with [Playwright](https://playwright.dev/)
+-  Sentence embeddings from Hugging Face (MiniLM-L6-v2)
+-  Cosine similarity calculation
+-  Synthetic sentence generation
+-  Configurable similarity threshold
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 - Node.js (v18+)
 - A free [Hugging Face account](https://huggingface.co)
@@ -24,13 +24,13 @@ It generates **100 sentence pairs**, feeds them to the model, and calculates **c
 
 ---
 
-## 🔧 Setup
+##  Setup
 
 1. Clone or unzip this repo:
    ```bash
    cd qa-sentence-similarity-playwright
 
-## 🔧 Install Dependencies 
+##  Install Dependencies 
 
 npm install
 npx playwright install
@@ -42,10 +42,10 @@ HUGGINGFACE_API_KEY=your_huggingface_token_here
 npm test
 
 Each test logs the sentence pair and their cosine similarity:
-🔍 Pair #1
-   👉 Sentence 1: The quick brown fox jumps over the lazy dog
-   👉 Sentence 2: A speedy brown fox hopped over a lazy dog
-   📏 Similarity: 0.8325
+ Pair #1
+    Sentence 1: The quick brown fox jumps over the lazy dog
+    Sentence 2: A speedy brown fox hopped over a lazy dog
+    Similarity: 0.8325
 
 ## Powered by
 
