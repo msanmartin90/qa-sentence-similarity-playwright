@@ -1,0 +1,14 @@
+{
+    "name": "qa-sentence-similarity-playwright",
+    "version": "1.0.0",
+    "description": "Playwright-based automation to test sentence similarity using Hugging Face transformers.",
+    "scripts": {
+      "test": "npx playwright test"
+    },
+    "devDependencies": {
+      "@playwright/test": "^1.42.0",
+      "axios": "^1.6.7",
+      "dotenv": "^16.3.1"
+    }
+  }
+  
