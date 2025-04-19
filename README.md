@@ -2,7 +2,7 @@
 
 This project is a **Playwright + TypeScript automation suite** that tests whether a sentence transformer model (hosted on **Hugging Face**) can correctly determine if two sentences are semantically similar.
 
-It generates **100 sentence pairs**, feeds them to the model, and calculates **cosine similarity** between their embeddings. The test passes if the similarity is above a configurable threshold (default: `0.75`).
+It generates **10 sentence pairs**, feeds them to the model, and calculates **cosine similarity** between their embeddings. The test passes if the similarity is above a configurable threshold (default: `0.75`).
 
 ---
 
